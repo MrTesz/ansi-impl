@@ -1,4 +1,4 @@
-package de.mrtesz.ansi_impl;
+package io.github.mrtesz.ansi_impl;
 
 public class Ansi {
 

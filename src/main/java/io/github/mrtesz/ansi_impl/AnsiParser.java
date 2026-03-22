@@ -1,4 +1,4 @@
-package de.mrtesz.ansi_impl;
+package io.github.mrtesz.ansi_impl;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
