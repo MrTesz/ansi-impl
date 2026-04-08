@@ -1,4 +1,4 @@
-de/mrtesz/ansi_impl/ParagraphAnsi.class
-de/mrtesz/ansi_impl/Ansi.class
-de/mrtesz/ansi_impl/NamedAnsi.class
-de/mrtesz/ansi_impl/AnsiParser.class
+io/github/mrtesz/ansi_impl/AnsiParser.class
+io/github/mrtesz/ansi_impl/NamedAnsi.class
+io/github/mrtesz/ansi_impl/Ansi.class
+io/github/mrtesz/ansi_impl/ParagraphAnsi.class

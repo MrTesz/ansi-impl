@@ -1,10 +1,10 @@
 package io.github.mrtesz.ansi_impl;
 
-public class ParagraphAnsi extends Ansi {
+public class ParagraphAnsiCode extends AnsiCode {
 
     private final String paragraphCode;
 
-    protected ParagraphAnsi(String code, String paragraphCode) {
+    protected ParagraphAnsiCode(int code, String paragraphCode) {
         super(code);
         this.paragraphCode = paragraphCode;
     }

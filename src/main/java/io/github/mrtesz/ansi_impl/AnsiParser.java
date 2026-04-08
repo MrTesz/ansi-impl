@@ -11,13 +11,13 @@ public class AnsiParser {
 
     static {
         try {
-            for (Field f : NamedAnsi.class.getDeclaredFields()) {
+            for (Field f : Ansi.class.getDeclaredFields()) {
                 if (!Modifier.isStatic(f.getModifiers())) continue;
-                if (!(f.get(null) instanceof ParagraphAnsi p)) continue;
+                if (!(f.get(null) instanceof ParagraphAnsiCode p)) continue;
 
                 PARAGRAPH_MAP.put(
                         p.getParagraphCode().charAt(0),
-                        p.getCode()
+                        p.parse()
                 );
             }
         } catch (IllegalAccessException e) {
@@ -48,6 +48,6 @@ public class AnsiParser {
             out.append(c);
         }
 
-        return out.toString() + NamedAnsi.RESET;
+        return out.toString() + Ansi.RESET;
     }
 }
