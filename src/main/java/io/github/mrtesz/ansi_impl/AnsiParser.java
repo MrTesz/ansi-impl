@@ -11,7 +11,7 @@ public class AnsiParser {
 
     static {
         try {
-            for (Field f : Ansi.class.getDeclaredFields()) {
+            for (Field f : TextAnsi.class.getDeclaredFields()) {
                 if (!Modifier.isStatic(f.getModifiers())) continue;
                 if (!(f.get(null) instanceof ParagraphAnsiCode p)) continue;
 
@@ -48,6 +48,6 @@ public class AnsiParser {
             out.append(c);
         }
 
-        return out.toString() + Ansi.RESET;
+        return out.toString() + TextAnsi.RESET;
     }
 }

@@ -1,6 +1,6 @@
 package io.github.mrtesz.ansi_impl;
 
-public class Ansi {
+public class TextAnsi {
     
     public final static ParagraphAnsiCode RESET = new ParagraphAnsiCode(0, "r");
 
