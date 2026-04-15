@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"io.github.mrtesz.ansi_impl","l":"Ansi"},{"p":"io.github.mrtesz.ansi_impl","l":"AnsiParser"},{"p":"io.github.mrtesz.ansi_impl","l":"NamedAnsi"},{"p":"io.github.mrtesz.ansi_impl","l":"ParagraphAnsi"}];updateSearchResults();
